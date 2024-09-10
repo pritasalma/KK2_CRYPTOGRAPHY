@@ -1,21 +1,72 @@
 # Calculating MD5 Hashes Using MD5 Calculator
 
+**INSTALL MD5 Calculator**
 
-**Tugas Lab**
+1. Install file MD5 Calculator pada link berikut ini :
+   
+   https://md5-calculator.software.informer.com/download/
 
-1. Arahkan ke Z:\CEH-Tools\CEHv10 Module 20 Cryptography\MD5 Hash Calculators\MD5 Calculator, klik dua kali md5calc(1.0.0.0).msi dan ikuti langkah-langkah instalasi untuk menginstal MD5 Calculator.
+   ![image](https://github.com/user-attachments/assets/d9083e21-4028-4cf1-8b31-0a78031d0df4)
 
-2. Untuk menemukan hash MD5 dari file apa pun, klik kanan pada file tersebut (di sini, md5calc(1.0.0.0).msi), dan pilih "MD5 Calculator" dari menu konteks.
+2. Jika anda mendapatkan pesan berikut ini :
+   
+   ![image](https://github.com/user-attachments/assets/f52345c5-c0f2-422d-8726-d88616fe143f)
 
-3. Kalkulator MD5 menunjukkan nilai hash MD5 dari file yang dipilih.
-Catatan: Sebagai alternatif, Anda dapat menjelajahi file mana pun untuk menghitung hash MD5 dan mengklik tombol Hitung untuk menghitung hash MD5 dari file tersebut.
+   Pesan pada gambar tersebut menunjukkan bahwa aplikasi MD5 Calculator memerlukan .NET Framework
+   versi 2.0.50727 untuk bisa dijalankan. Aplikasi tersebut tidak dapat berjalan karena .NE
+   Framework yang dibutuhkan belum diinstal pada sistem. Jadi Anda harus menginstall aplikasi
+   tambahan yang bisa dilihat pada link berikut ini :
+
+   https://www.microsoft.com/en-us/download/details.aspx?id=6041
+
+   ![image](https://github.com/user-attachments/assets/fb8d0684-7d78-47b2-a259-f08205899eb9)
 
 
-4. Kalkulator MD5 digunakan untuk memeriksa integritas sebuah file.
-Jika seseorang ingin mengirim file ke orang lain melalui media, ia akan menghitung hash-nya dan mengirim file tersebut (bersama dengan nilai hash) kepada orang yang dimaksud. Ketika orang di sisi lain menerima file tersebut, ia akan mengunduh file dan menghitung nilainya menggunakan Kalkulator MD5.
+4. Setelah Aplikasi berhasil terinstall, lakukan langkah-langkah berikut ini :
+
+   ![image](https://github.com/user-attachments/assets/4e81390b-b89c-4069-9c49-f11453c7c089)
+
+   ![image](https://github.com/user-attachments/assets/818c35df-763f-4605-af26-3a8be6e3e88d)
+
+   ![image](https://github.com/user-attachments/assets/48816409-94e4-4148-948a-d187e9dd8f02)
+
+   ![image](https://github.com/user-attachments/assets/bb1ef7d6-b24d-4275-814c-60b0f6492e16)
 
 
-5. Kemudian, orang tersebut membandingkan nilai hash yang dihasilkan dengan nilai hash yang dikirim melalui email. Jika kedua nilai hash tersebut sama, maka dapat dipastikan bahwa orang tersebut telah memperoleh file tanpa modifikasi dari pihak ketiga.
+**Calculating MD5 Hashes Using MD5 Calculator**
+
+ ![image](https://github.com/user-attachments/assets/6280500b-8067-4c86-91e0-ae61e0da3f4f)
+ 
+1. Buka Aplikasi MD5 Calculator:
+   - Jalankan aplikasi MD5 Calculator di komputer Anda.
+     
+2. Pilih File yang Akan Dihash:
+   - Pada bagian File Name, klik tombol dengan simbol tiga titik ( ... ) untuk memilih file
+     yang akan dihitung hash-nya.
+   - Dalam gambar, file yang dipilih adalah:
+     PRATIKUM ADP_LAPORAN 1_Prita Salma_09030582226036.pdf.
+
+3. Klik Tombol Calculate:
+   - Setelah memilih file, klik tombol Calculate di sebelah kanan.
+   - Aplikasi akan secara otomatis menghitung hash MD5 dari file yang dipilih.
+
+4. Lihat Hasil MD5 Digest:
+   - Setelah proses kalkulasi selesai, hasilnya akan muncul di bagian MD5 Digest, yang
+     merupakan nilai hash MD5 dari file tersebut. Pada gambar, nilai yang dihasilkan adalah:
+     580bf7e3d110aa96b212aa60dfeea596.
+
+5. Opsional: Compare Hash:
+   - Jika Anda ingin membandingkan hash file dengan hash lain (untuk memastikan keaslian atau
+     integritas file), Anda bisa memasukkan nilai hash yang ingin dibandingkan di bagian
+     Compare To. Jika Anda ingin menampilkan hash dalam format huruf besar (uppercase), centang
+     kotak Upper case.
+
+6. Jika proses sudah selesai, Anda bisa klik tombol Exit untuk menutup aplikasi.
+  
 
 
-![image](https://github.com/user-attachments/assets/cdd24eea-3e14-4acd-93eb-2d6d1f488a25)
+
+
+
+
+   
